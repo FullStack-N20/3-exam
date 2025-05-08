@@ -1,8 +1,0 @@
-{
-    "title":"Math",
-    "description":"sinus, cosinus",
-    "duration":"6 months and 2 weeks",
-    "price":"49.99$",
-    "author":"681cbb4fe6e2e6e02d74f0a5",
-    "category":"681cb77fe6e2e6e02d74f09b"
-}
