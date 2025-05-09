@@ -7,6 +7,7 @@ import courseRouter from './routes/course.route.js';
 import cookieParser from 'cookie-parser';
 import logger from './utils/logger/logger.js';
 import enrollmentRouter from './routes/enrollment.routes.js';
+import reviewRouter from './routes/reviews.route.js';
 
 config();
 
@@ -21,5 +22,6 @@ app.use('/user', userRouter);
 app.use('/category', categoryRouter);
 app.use('/course', courseRouter);
 app.use('/enrollment', enrollmentRouter);
+app.use('/review', reviewRouter);
 
 app.listen(PORT, logger.info(`Server running on port ${PORT}`));
